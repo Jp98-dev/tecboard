@@ -27,13 +27,13 @@ body {
   color: #ffffff;
 }
 
-header img{
+header img {
   display: block;
   margin: 75px 0 0 360px;
 }
 
 h1 {
-  font-size: 64px;
+  font-size: 81px;
   font-family: "Unbounded", sans-serif;
   font-weight: 700;
   text-align: center;
@@ -67,8 +67,8 @@ a {
   margin: 40px auto;
 }
 
-a:hover{
-  background-color: #8233E8;
+a:hover {
+  background-color: #8233e8;
 }
 
 section img {
@@ -78,39 +78,36 @@ section img {
   margin: 0 auto;
 }
 
-
-@media(max-width: 768px){
-
-  header img{
-      margin: 65px 0 0 60px;
+@media (max-width: 768px) {
+  header img {
+    margin: 65px 0 0 60px;
   }
-  p{
+  p {
     width: 648px;
   }
 }
 
-@media(max-width: 375px){
-
-  header img{
+@media (max-width: 375px) {
+  header img {
     margin-top: 32px;
     margin-left: 16px;
   }
 
-  h1{
+  h1 {
     font-size: 40px;
   }
 
-  p{
+  p {
     font-size: 20px;
     width: 340px;
   }
 
-  section img{
+  section img {
     width: 240px;
     height: 230px;
   }
 
-  a{
+  a {
     font-size: 20px;
     width: 251px;
   }
